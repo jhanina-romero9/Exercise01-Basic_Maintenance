@@ -35,7 +35,6 @@ namespace UnoSquare_Maintenance
         #region Google Locators
         By GoogleSearchBar = By.XPath("//textarea[@class='gLFyf']");
         By GoogleSearIcon = By.XPath("//input[contains(@data-ved,'0ahUKEwit1oTT7LOFAxVOK7kGHZZZCm8Q4dUDCBE')]");
-        //By UnoSquareGoogleResult = By.XPath("//div[@class='BYM4Nd']/div/div/div/div/div/div/span/a");
         By UnoSquareGoogleResult = By.XPath("//h3[contains(@class,'LC20lb MBeuO DKV0Md')][1]");
         #endregion
 
